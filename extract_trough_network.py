@@ -142,10 +142,10 @@ footprint_shp = "D:/manuscripts/Chandi_Anna_Nature/BanksIsland_FPs_noOverlap.shp
 clipped_line_dir = "D:/manuscripts/Chandi_Anna_Nature/IWP_net_out_clipped"
 
 # Extract polyline shapefile of ice-wedge network from ice-wedge polygon detection shapefile
-# extract_network(input_dir)
+extract_network(input_dir)
 
 # Clip polyline shapefiles to original image footprint which had overlaps removed
-# clip_polyline_to_footprint(polyline_dir, footprint_shp, clipped_line_dir)
+clip_polyline_to_footprint(polyline_dir, footprint_shp, clipped_line_dir)
 
 # Calculate lengths of polylines and their sum
 polylines_lengths, total_length = calculate_polylines_length(clipped_line_dir)
