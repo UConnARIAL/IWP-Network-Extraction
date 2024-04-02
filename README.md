@@ -8,4 +8,5 @@ To setup the required environment, you must have the licensed ArcGIS Pro softwar
 Name                          Version
 scikit-image                  0.17.2
 rasterio                      1.3.9
+geopandas                     0.14.3
 ```
